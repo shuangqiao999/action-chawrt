@@ -4,7 +4,7 @@
 REPO_URL="https://github.com/shuangqiao999/chawrt.git"
 REPO_DIR="chawrt"
 DL_DIR="$(pwd)/dl"
-read -p "Select branch (main, 24.10) [24.10]: " BRANCH_CHOICE
+read -p "Select branch (24.10) [24.10]: " BRANCH_CHOICE
 BRANCH_CHOICE=${BRANCH_CHOICE:-main}
 BRANCH="chawrt/$BRANCH_CHOICE"
 
